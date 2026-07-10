@@ -3,7 +3,7 @@ body{
   }
   
   .page-box{
-    background:#3c4a7b;
+    background:#5e75c7;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
@@ -12,7 +12,7 @@ body{
   }
   
   .page-heading{
-    color:#0d0a00;
+    color:#f4f3f0;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
@@ -35,3 +35,82 @@ body{
     border-radius: 8px;
     min-width: 120px;
   }
+
+  /* Page heading */
+.page-heading {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+/* Table container */
+.table-responsive {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+
+/* Table */
+.table {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+
+/* Table header */
+.table thead th {
+    background-color: #021e3a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+
+/* Table rows */
+.table tbody td {
+    text-align: center;
+    padding: 14px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+
+/* Hover effect */
+.table tbody tr:hover {
+    background-color: #f1f5ff;
+    transform: scale(1.01);
+    transition: 0.3s ease;
+}
+
+
+/* Employee code */
+.table tbody td strong {
+    color: #02265c;
+}
+
+
+/* Badge design */
+.badge {
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+
+
+@media(max-width:768px){
+
+    .table thead th {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+
+    .table tbody td {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+}
